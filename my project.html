@@ -1,0 +1,881 @@
+<html lang="ru"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Туристические экскурсии по России - лучшие маршруты по доступным ценам">
+    <title>Русские просторы - экскурсии по России</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        .hero-image {
+            background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://imgholder.ru/1600x900/8493a8/adb9ca&text=РУССКИЕ+ПРОСТОРЫ&font=kelson');
+            height: 60vh;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+        }
+        
+        .tour-card:hover {
+            transform: translateY(-5px);
+            transition: all 0.3s ease;
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+        }
+        
+        .modal {
+            transition: opacity 0.3s ease, visibility 0.3s ease;
+        }
+        
+        .testimonial-card {
+            transition: all 0.3s ease;
+        }
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+<style>*, ::before, ::after{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }::backdrop{--tw-border-spacing-x:0;--tw-border-spacing-y:0;--tw-translate-x:0;--tw-translate-y:0;--tw-rotate:0;--tw-skew-x:0;--tw-skew-y:0;--tw-scale-x:1;--tw-scale-y:1;--tw-pan-x: ;--tw-pan-y: ;--tw-pinch-zoom: ;--tw-scroll-snap-strictness:proximity;--tw-gradient-from-position: ;--tw-gradient-via-position: ;--tw-gradient-to-position: ;--tw-ordinal: ;--tw-slashed-zero: ;--tw-numeric-figure: ;--tw-numeric-spacing: ;--tw-numeric-fraction: ;--tw-ring-inset: ;--tw-ring-offset-width:0px;--tw-ring-offset-color:#fff;--tw-ring-color:rgb(59 130 246 / 0.5);--tw-ring-offset-shadow:0 0 #0000;--tw-ring-shadow:0 0 #0000;--tw-shadow:0 0 #0000;--tw-shadow-colored:0 0 #0000;--tw-blur: ;--tw-brightness: ;--tw-contrast: ;--tw-grayscale: ;--tw-hue-rotate: ;--tw-invert: ;--tw-saturate: ;--tw-sepia: ;--tw-drop-shadow: ;--tw-backdrop-blur: ;--tw-backdrop-brightness: ;--tw-backdrop-contrast: ;--tw-backdrop-grayscale: ;--tw-backdrop-hue-rotate: ;--tw-backdrop-invert: ;--tw-backdrop-opacity: ;--tw-backdrop-saturate: ;--tw-backdrop-sepia: ;--tw-contain-size: ;--tw-contain-layout: ;--tw-contain-paint: ;--tw-contain-style: }/* ! tailwindcss v3.4.16 | MIT License | https://tailwindcss.com */*,::after,::before{box-sizing:border-box;border-width:0;border-style:solid;border-color:#e5e7eb}::after,::before{--tw-content:''}:host,html{line-height:1.5;-webkit-text-size-adjust:100%;-moz-tab-size:4;tab-size:4;font-family:ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";font-feature-settings:normal;font-variation-settings:normal;-webkit-tap-highlight-color:transparent}body{margin:0;line-height:inherit}hr{height:0;color:inherit;border-top-width:1px}abbr:where([title]){-webkit-text-decoration:underline dotted;text-decoration:underline dotted}h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight:inherit}a{color:inherit;text-decoration:inherit}b,strong{font-weight:bolder}code,kbd,pre,samp{font-family:ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;font-feature-settings:normal;font-variation-settings:normal;font-size:1em}small{font-size:80%}sub,sup{font-size:75%;line-height:0;position:relative;vertical-align:baseline}sub{bottom:-.25em}sup{top:-.5em}table{text-indent:0;border-color:inherit;border-collapse:collapse}button,input,optgroup,select,textarea{font-family:inherit;font-feature-settings:inherit;font-variation-settings:inherit;font-size:100%;font-weight:inherit;line-height:inherit;letter-spacing:inherit;color:inherit;margin:0;padding:0}button,select{text-transform:none}button,input:where([type=button]),input:where([type=reset]),input:where([type=submit]){-webkit-appearance:button;background-color:transparent;background-image:none}:-moz-focusring{outline:auto}:-moz-ui-invalid{box-shadow:none}progress{vertical-align:baseline}::-webkit-inner-spin-button,::-webkit-outer-spin-button{height:auto}[type=search]{-webkit-appearance:textfield;outline-offset:-2px}::-webkit-search-decoration{-webkit-appearance:none}::-webkit-file-upload-button{-webkit-appearance:button;font:inherit}summary{display:list-item}blockquote,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,p,pre{margin:0}fieldset{margin:0;padding:0}legend{padding:0}menu,ol,ul{list-style:none;margin:0;padding:0}dialog{padding:0}textarea{resize:vertical}input::placeholder,textarea::placeholder{opacity:1;color:#9ca3af}[role=button],button{cursor:pointer}:disabled{cursor:default}audio,canvas,embed,iframe,img,object,svg,video{display:block;vertical-align:middle}img,video{max-width:100%;height:auto}[hidden]:where(:not([hidden=until-found])){display:none}.container{width:100%}@media (min-width: 640px){.container{max-width:640px}}@media (min-width: 768px){.container{max-width:768px}}@media (min-width: 1024px){.container{max-width:1024px}}@media (min-width: 1280px){.container{max-width:1280px}}@media (min-width: 1536px){.container{max-width:1536px}}.fixed{position:fixed}.absolute{position:absolute}.relative{position:relative}.inset-0{inset:0px}.right-2{right:0.5rem}.top-2{top:0.5rem}.z-10{z-index:10}.z-50{z-index:50}.mx-auto{margin-left:auto;margin-right:auto}.-mx-2{margin-left:-0.5rem;margin-right:-0.5rem}.-mx-3{margin-left:-0.75rem;margin-right:-0.75rem}.mx-4{margin-left:1rem;margin-right:1rem}.-mt-10{margin-top:-2.5rem}.mb-12{margin-bottom:3rem}.mb-2{margin-bottom:0.5rem}.mb-3{margin-bottom:0.75rem}.mb-4{margin-bottom:1rem}.mb-6{margin-bottom:1.5rem}.mb-8{margin-bottom:2rem}.ml-4{margin-left:1rem}.mr-2{margin-right:0.5rem}.mr-4{margin-right:1rem}.mt-1{margin-top:0.25rem}.mt-10{margin-top:2.5rem}.mt-2{margin-top:0.5rem}.mt-4{margin-top:1rem}.mt-8{margin-top:2rem}.block{display:block}.inline-block{display:inline-block}.flex{display:flex}.grid{display:grid}.hidden{display:none}.h-12{height:3rem}.h-48{height:12rem}.h-96{height:24rem}.h-full{height:100%}.max-h-\[90vh\]{max-height:90vh}.w-12{width:3rem}.w-full{width:100%}.max-w-2xl{max-width:42rem}.max-w-3xl{max-width:48rem}.max-w-4xl{max-width:56rem}.max-w-lg{max-width:32rem}.cursor-pointer{cursor:pointer}.grid-cols-1{grid-template-columns:repeat(1, minmax(0, 1fr))}.grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.flex-wrap{flex-wrap:wrap}.items-start{align-items:flex-start}.items-end{align-items:flex-end}.items-center{align-items:center}.justify-center{justify-content:center}.justify-between{justify-content:space-between}.gap-12{gap:3rem}.gap-4{gap:1rem}.gap-8{gap:2rem}.space-x-2 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(0.5rem * var(--tw-space-x-reverse));margin-left:calc(0.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-4 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1rem * var(--tw-space-x-reverse));margin-left:calc(1rem * calc(1 - var(--tw-space-x-reverse)))}.space-x-6 > :not([hidden]) ~ :not([hidden]){--tw-space-x-reverse:0;margin-right:calc(1.5rem * var(--tw-space-x-reverse));margin-left:calc(1.5rem * calc(1 - var(--tw-space-x-reverse)))}.space-y-2 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(0.5rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(0.5rem * var(--tw-space-y-reverse))}.space-y-4 > :not([hidden]) ~ :not([hidden]){--tw-space-y-reverse:0;margin-top:calc(1rem * calc(1 - var(--tw-space-y-reverse)));margin-bottom:calc(1rem * var(--tw-space-y-reverse))}.overflow-hidden{overflow:hidden}.overflow-y-auto{overflow-y:auto}.rounded-full{border-radius:9999px}.rounded-lg{border-radius:0.5rem}.border{border-width:1px}.border-b{border-bottom-width:1px}.border-t{border-top-width:1px}.border-gray-700{--tw-border-opacity:1;border-color:rgb(55 65 81 / var(--tw-border-opacity, 1))}.bg-gray-50{--tw-bg-opacity:1;background-color:rgb(249 250 251 / var(--tw-bg-opacity, 1))}.bg-blue-800{--tw-bg-opacity:1;background-color:rgb(30 64 175 / var(--tw-bg-opacity, 1))}.bg-black{--tw-bg-opacity:1;background-color:rgb(0 0 0 / var(--tw-bg-opacity, 1))}.bg-blue-600{--tw-bg-opacity:1;background-color:rgb(37 99 235 / var(--tw-bg-opacity, 1))}.bg-blue-700{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.bg-gray-200{--tw-bg-opacity:1;background-color:rgb(229 231 235 / var(--tw-bg-opacity, 1))}.bg-gray-800{--tw-bg-opacity:1;background-color:rgb(31 41 55 / var(--tw-bg-opacity, 1))}.bg-green-500{--tw-bg-opacity:1;background-color:rgb(34 197 94 / var(--tw-bg-opacity, 1))}.bg-white{--tw-bg-opacity:1;background-color:rgb(255 255 255 / var(--tw-bg-opacity, 1))}.bg-opacity-50{--tw-bg-opacity:0.5}.object-cover{object-fit:cover}.p-6{padding:1.5rem}.px-4{padding-left:1rem;padding-right:1rem}.py-3{padding-top:0.75rem;padding-bottom:0.75rem}.px-2{padding-left:0.5rem;padding-right:0.5rem}.px-3{padding-left:0.75rem;padding-right:0.75rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.px-8{padding-left:2rem;padding-right:2rem}.py-1{padding-top:0.25rem;padding-bottom:0.25rem}.py-12{padding-top:3rem;padding-bottom:3rem}.py-16{padding-top:4rem;padding-bottom:4rem}.py-2{padding-top:0.5rem;padding-bottom:0.5rem}.py-8{padding-top:2rem;padding-bottom:2rem}.pb-4{padding-bottom:1rem}.pt-8{padding-top:2rem}.text-left{text-align:left}.text-center{text-align:center}.text-2xl{font-size:1.5rem;line-height:2rem}.text-3xl{font-size:1.875rem;line-height:2.25rem}.text-4xl{font-size:2.25rem;line-height:2.5rem}.text-lg{font-size:1.125rem;line-height:1.75rem}.text-sm{font-size:0.875rem;line-height:1.25rem}.text-xl{font-size:1.25rem;line-height:1.75rem}.text-xs{font-size:0.75rem;line-height:1rem}.font-bold{font-weight:700}.italic{font-style:italic}.text-white{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.text-blue-300{--tw-text-opacity:1;color:rgb(147 197 253 / var(--tw-text-opacity, 1))}.text-blue-400{--tw-text-opacity:1;color:rgb(96 165 250 / var(--tw-text-opacity, 1))}.text-blue-500{--tw-text-opacity:1;color:rgb(59 130 246 / var(--tw-text-opacity, 1))}.text-blue-600{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.text-gray-400{--tw-text-opacity:1;color:rgb(156 163 175 / var(--tw-text-opacity, 1))}.text-gray-500{--tw-text-opacity:1;color:rgb(107 114 128 / var(--tw-text-opacity, 1))}.text-gray-600{--tw-text-opacity:1;color:rgb(75 85 99 / var(--tw-text-opacity, 1))}.text-gray-700{--tw-text-opacity:1;color:rgb(55 65 81 / var(--tw-text-opacity, 1))}.text-gray-800{--tw-text-opacity:1;color:rgb(31 41 55 / var(--tw-text-opacity, 1))}.text-pink-600{--tw-text-opacity:1;color:rgb(219 39 119 / var(--tw-text-opacity, 1))}.text-red-500{--tw-text-opacity:1;color:rgb(239 68 68 / var(--tw-text-opacity, 1))}.text-yellow-400{--tw-text-opacity:1;color:rgb(250 204 21 / var(--tw-text-opacity, 1))}.opacity-90{opacity:0.9}.shadow-lg{--tw-shadow:0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 10px 15px -3px var(--tw-shadow-color), 0 4px 6px -4px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.shadow-md{--tw-shadow:0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);--tw-shadow-colored:0 4px 6px -1px var(--tw-shadow-color), 0 2px 4px -2px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000), var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow)}.transition{transition-property:color, background-color, border-color, fill, stroke, opacity, box-shadow, transform, filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;transition-property:color, background-color, border-color, text-decoration-color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter, -webkit-text-decoration-color, -webkit-backdrop-filter;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.transition-transform{transition-property:transform;transition-timing-function:cubic-bezier(0.4, 0, 0.2, 1);transition-duration:150ms}.duration-300{transition-duration:300ms}.duration-500{transition-duration:500ms}.hover\:scale-110:hover{--tw-scale-x:1.1;--tw-scale-y:1.1;transform:translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y))}.hover\:bg-blue-700:hover{--tw-bg-opacity:1;background-color:rgb(29 78 216 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-100:hover{--tw-bg-opacity:1;background-color:rgb(243 244 246 / var(--tw-bg-opacity, 1))}.hover\:bg-gray-300:hover{--tw-bg-opacity:1;background-color:rgb(209 213 219 / var(--tw-bg-opacity, 1))}.hover\:text-blue-200:hover{--tw-text-opacity:1;color:rgb(191 219 254 / var(--tw-text-opacity, 1))}.hover\:text-blue-600:hover{--tw-text-opacity:1;color:rgb(37 99 235 / var(--tw-text-opacity, 1))}.hover\:text-blue-700:hover{--tw-text-opacity:1;color:rgb(29 78 216 / var(--tw-text-opacity, 1))}.hover\:text-blue-800:hover{--tw-text-opacity:1;color:rgb(30 64 175 / var(--tw-text-opacity, 1))}.hover\:text-pink-800:hover{--tw-text-opacity:1;color:rgb(157 23 77 / var(--tw-text-opacity, 1))}.hover\:text-red-700:hover{--tw-text-opacity:1;color:rgb(185 28 28 / var(--tw-text-opacity, 1))}.hover\:text-white:hover{--tw-text-opacity:1;color:rgb(255 255 255 / var(--tw-text-opacity, 1))}.focus\:outline-none:focus{outline:2px solid transparent;outline-offset:2px}.focus\:ring-2:focus{--tw-ring-offset-shadow:var(--tw-ring-inset) 0 0 0 var(--tw-ring-offset-width) var(--tw-ring-offset-color);--tw-ring-shadow:var(--tw-ring-inset) 0 0 0 calc(2px + var(--tw-ring-offset-width)) var(--tw-ring-color);box-shadow:var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow, 0 0 #0000)}.focus\:ring-blue-300:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(147 197 253 / var(--tw-ring-opacity, 1))}.focus\:ring-blue-500:focus{--tw-ring-opacity:1;--tw-ring-color:rgb(59 130 246 / var(--tw-ring-opacity, 1))}@media (min-width: 768px){.md\:mb-0{margin-bottom:0px}.md\:block{display:block}.md\:hidden{display:none}.md\:w-1\/2{width:50%}.md\:w-1\/4{width:25%}.md\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.md\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}.md\:grid-cols-4{grid-template-columns:repeat(4, minmax(0, 1fr))}.md\:text-5xl{font-size:3rem;line-height:1}}@media (min-width: 1024px){.lg\:grid-cols-2{grid-template-columns:repeat(2, minmax(0, 1fr))}.lg\:grid-cols-3{grid-template-columns:repeat(3, minmax(0, 1fr))}}</style></head>
+<body class="bg-gray-50">
+    <!-- Header -->
+    <header class="bg-blue-800 text-white shadow-lg">
+        <div class="container mx-auto px-4 py-3 flex justify-between items-center">
+            <div class="flex items-center space-x-2">
+                <i class="fas fa-map-marked-alt text-2xl"></i>
+                <h1 class="text-2xl font-bold">Русские просторы</h1>
+            </div>
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#" class="hover:text-blue-200 transition">Главная</a></li>
+                    <li><a href="#tours" class="hover:text-blue-200 transition">Экскурсии</a></li>
+                    <li><a href="#about" class="hover:text-blue-200 transition">О нас</a></li>
+                    <li><a href="#reviews" class="hover:text-blue-200 transition">Отзывы</a></li>
+                    <li><a href="#contacts" class="hover:text-blue-200 transition">Контакты</a></li>
+                </ul>
+            </nav>
+            <button id="mobile-menu-button" class="md:hidden text-2xl">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="hidden md:hidden bg-blue-700 px-4 py-2">
+            <ul class="space-y-2">
+                <li><a href="#" class="block py-2 hover:text-blue-200 transition">Главная</a></li>
+                <li><a href="#tours" class="block py-2 hover:text-blue-200 transition">Экскурсии</a></li>
+                <li><a href="#about" class="block py-2 hover:text-blue-200 transition">О нас</a></li>
+                <li><a href="#reviews" class="block py-2 hover:text-blue-200 transition">Отзывы</a></li>
+                <li><a href="#contacts" class="block py-2 hover:text-blue-200 transition">Контакты</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero-image">
+        <div class="container mx-auto px-4 h-full flex items-center">
+            <div class="text-white max-w-2xl">
+                <h2 class="text-4xl md:text-5xl font-bold mb-4">Откройте для себя Россию</h2>
+                <p class="text-xl mb-6">Уникальные экскурсии по самым красивым местам нашей страны с опытными гидами</p>
+                <a href="#tours" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300 inline-block">Выбрать экскурсию</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Search Section -->
+    <section class="bg-white py-8 shadow-md -mt-10 relative z-10 mx-4 rounded-lg">
+        <div class="container mx-auto px-4">
+            <div class="flex flex-wrap -mx-2">
+                <div class="w-full md:w-1/4 px-2 mb-4 md:mb-0">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="destination">
+                        <i class="fas fa-map-marker-alt mr-2"></i>Направление
+                    </label>
+                    <select id="destination" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Все направления</option>
+                        <option value="moscow">Москва</option>
+                        <option value="spb">Санкт-Петербург</option>
+                        <option value="golden-ring">Золотое кольцо</option>
+                        <option value="kazan">Казань</option>
+                        <option value="baikal">Байкал</option>
+                        <option value="kamchatka">Камчатка</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/4 px-2 mb-4 md:mb-0">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="date">
+                        <i class="far fa-calendar-alt mr-2"></i>Дата
+                    </label>
+                    <input type="date" id="date" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                </div>
+                <div class="w-full md:w-1/4 px-2 mb-4 md:mb-0">
+                    <label class="block text-gray-700 text-sm font-bold mb-2" for="duration">
+                        <i class="far fa-clock mr-2"></i>Длительность
+                    </label>
+                    <select id="duration" class="w-full px-3 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        <option value="">Любая</option>
+                        <option value="1">1 день</option>
+                        <option value="2-3">2-3 дня</option>
+                        <option value="4-7">4-7 дней</option>
+                        <option value="7+">Более недели</option>
+                    </select>
+                </div>
+                <div class="w-full md:w-1/4 px-2 flex items-end">
+                    <button class="w-full bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300">
+                        Найти экскурсии
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Popular Tours Section -->
+    <section id="tours" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Популярные экскурсии</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Выберите одно из наших самых востребованных направлений или просмотрите полный каталог</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Tour 1 -->
+                <div class="tour-card bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://imgholder.ru/600x300/8493a8/adb9ca&amp;text=Москва+и+Кремль&amp;font=kelson" alt="Москва и Кремль" class="w-full h-48 object-cover">
+                        <span class="absolute top-2 right-2 bg-blue-600 text-white text-xs font-bold px-3 py-1 rounded-full">Хит сезона</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Москва: классический тур</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Москва</span>
+                            <i class="fas fa-clock ml-4 mr-2"></i>
+                            <span>3 дня</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Обзорная экскурсия по главным достопримечательностям столицы: Красная площадь, Кремль, храм Христа Спасителя и многое другое.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-blue-600">15,990 ₽</span>
+                            <button onclick="openModal('moscow-classic')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour 2 -->
+                <div class="tour-card bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://imgholder.ru/600x300/8493a8/adb9ca&amp;text=Золотое+кольцо+России&amp;font=kelson" alt="Золотое кольцо России" class="w-full h-48 object-cover">
+                        <span class="absolute top-2 right-2 bg-green-500 text-white text-xs font-bold px-3 py-1 rounded-full">Новинка</span>
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Золотое кольцо России</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>8 городов</span>
+                            <i class="fas fa-clock ml-4 mr-2"></i>
+                            <span>7 дней</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Путешествие по древним городам Северо-Восточной Руси с богатой историей и прекрасными памятниками архитектуры.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-blue-600">29,900 ₽</span>
+                            <button onclick="openModal('golden-ring')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Tour 3 -->
+                <div class="tour-card bg-white rounded-lg overflow-hidden shadow-lg">
+                    <div class="relative">
+                        <img src="https://imgholder.ru/600x300/8493a8/adb9ca&amp;text=Озеро+Байкал&amp;font=kelson" alt="Озеро Байкал" class="w-full h-48 object-cover">
+                    </div>
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold mb-2">Байкал: жемчужина Сибири</h3>
+                        <div class="flex items-center text-gray-600 mb-3">
+                            <i class="fas fa-map-marker-alt mr-2"></i>
+                            <span>Иркутская область</span>
+                            <i class="fas fa-clock ml-4 mr-2"></i>
+                            <span>5 дней</span>
+                        </div>
+                        <p class="text-gray-700 mb-4">Незабываемое путешествие к самому глубокому озеру на планете. Чистейшая вода, уникальная природа и местные традиции.</p>
+                        <div class="flex justify-between items-center">
+                            <span class="text-xl font-bold text-blue-600">24,500 ₽</span>
+                            <button onclick="openModal('baikal')" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-lg transition duration-300">Подробнее</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-10">
+                <a href="#" class="inline-block bg-gray-200 hover:bg-gray-300 text-gray-800 font-bold py-3 px-6 rounded-lg transition duration-300">
+                    <i class="fas fa-list mr-2"></i>Все экскурсии
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section id="about" class="py-12 bg-blue-800 text-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Почему выбирают нас?</h2>
+            <p class="text-center max-w-2xl mx-auto mb-12 opacity-90">Мы предлагаем не просто экскурсии, а уникальные путешествия, которые запоминаются на всю жизнь</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Профессиональные гиды</h3>
+                    <p>Наши гиды - эксперты с большим опытом, которые знают и любят свою работу. Лицензированные специалисты с глубокими знаниями.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-wallet"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Лучшие цены</h3>
+                    <p>Мы предлагаем оптимальное соотношение цены и качества. Гарантируем отсутствие скрытых платежей и комиссий.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Индивидуальный подход</h3>
+                    <p>Прорабатываем маршруты с учетом ваших пожеланий. Группы до 15 человек для большего комфорта.</p>
+                </div>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mt-10">
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Безопасность</h3>
+                    <p>Все экскурсии застрахованы. Мы следим за актуальной обстановкой и корректируем маршруты при необходимости.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-car"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Комфортный транспорт</h3>
+                    <p>Современные автобусы и автомобили с кондиционерами, удобными сиденьями и профессиональными водителями.</p>
+                </div>
+                
+                <div class="text-center">
+                    <div class="text-4xl mb-4 text-blue-300">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-2">Эксклюзивные маршруты</h3>
+                    <p>Предлагаем уникальные программы, которые вы не найдете у других туроператоров. Секретные места и необычные ракурсы.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section id="reviews" class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Отзывы наших клиентов</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Что говорят наши туристы после путешествий с нами</p>
+            
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <!-- Review 1 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden bg-gray-200 mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Анна" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Анна Смирнова</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Экскурсия в Кремль превзошла все ожидания! Гид настолько интересно рассказывал, что даже дети слушали с открытыми ртами. Организация на высшем уровне, все точно по времени, без задержек. Обязательно порекомендую вас друзьям!"</p>
+                    <div class="mt-4 text-sm text-gray-500">5 июля 2023</div>
+                </div>
+                
+                <!-- Review 2 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden bg-gray-200 mr-4">
+                            <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Дмитрий" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Дмитрий Петров</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star-half-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Путешествие по Золотому кольцу было просто волшебным! Особенно впечатлил Суздаль и его деревянное зодчество. Гид Ирина настоящий профессионал, чувствуется глубокое знание истории. Единственное - хотелось бы больше свободного времени в каждом городе."</p>
+                    <div class="mt-4 text-sm text-gray-500">22 июня 2023</div>
+                </div>
+                
+                <!-- Review 3 -->
+                <div class="testimonial-card bg-white p-6 rounded-lg shadow-md">
+                    <div class="flex items-center mb-4">
+                        <div class="w-12 h-12 rounded-full overflow-hidden bg-gray-200 mr-4">
+                            <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Елена" class="w-full h-full object-cover">
+                        </div>
+                        <div>
+                            <h4 class="font-bold">Елена Ковалева</h4>
+                            <div class="flex text-yellow-400">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <p class="text-gray-700 italic">"Байкал - это нечто невероятное! Спасибо вашему гиду Михаилу за чудесную экскурсию. Он показал нам такие места, куда сами мы никогда бы не добрались. Организация на высоте, жилье в экологическом отезе прямо у воды было великолепным! Уже планируем следующую поездку с вами - на Камчатку."</p>
+                    <div class="mt-4 text-sm text-gray-500">14 мая 2023</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="py-16 bg-blue-600 text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl font-bold mb-4">Готовы к незабываемому путешествию?</h2>
+            <p class="text-xl mb-8 max-w-3xl mx-auto opacity-90">Оставьте заявку прямо сейчас и наш менеджер свяжется с вами для подбора идеальной экскурсии</p>
+            <form class="max-w-lg mx-auto">
+                <div class="flex flex-wrap -mx-3 mb-4">
+                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
+                        <input type="text" placeholder="Ваше имя" class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                    </div>
+                    <div class="w-full md:w-1/2 px-3">
+                        <input type="tel" placeholder="Телефон" class="w-full px-4 py-3 rounded-lg text-gray-800 focus:outline-none focus:ring-2 focus:ring-blue-300">
+                    </div>
+                </div>
+                <button type="submit" class="bg-white text-blue-600 hover:bg-gray-100 font-bold py-3 px-8 rounded-lg transition duration-300">
+                    Отправить заявку
+                </button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Фотогалерея</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Наши туристы в самых красивых местах России</p>
+            
+            <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото1&amp;font=kelson" alt="Туристы в Москве" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото2&amp;font=kelson" alt="Золотое кольцо" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото3&amp;font=kelson" alt="На Байкале" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото4&amp;font=kelson" alt="Санкт-Петербург" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото5&amp;font=kelson" alt="Камчатка" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото6&amp;font=kelson" alt="Алтай" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото7&amp;font=kelson" alt="Казань" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+                <div class="overflow-hidden rounded-lg h-48">
+                    <img src="https://imgholder.ru/400x400/8493a8/adb9ca&amp;text=Фото8&amp;font=kelson" alt="Сочи" class="w-full h-full object-cover hover:scale-110 transition duration-500 cursor-pointer">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-12 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Часто задаваемые вопросы</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Ответы на самые популярные вопросы наших клиентов</p>
+            
+            <div class="max-w-3xl mx-auto">
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Как осуществляется оплата экскурсий?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>Вы можете оплатить экскурсию несколькими способами: банковской картой на сайте, через интернет-банкинг или наличными в нашем офисе. При бронировании онлайн требуется предоплата 20% от стоимости, остальное - за 3 дня до начала экскурсии. Мы принимаем Visa, MasterCard, Мир.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Что входит в стоимость экскурсии?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>В стоимость включены: услуги гида, транспортное обслуживание, входные билеты в музеи и на объекты, указанные в программе, проживание (для многодневных туров), завтраки (в отелях). Обеды, ужины и личные расходы оплачиваются отдельно. Полный список включенных услуг указан в описании каждой экскурсии.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Можно ли изменить или отменить бронирование?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>Да, вы можете изменить дату или отменить бронирование. При отмене за 14 и более дней до экскурсии мы возвращаем полную сумму. За 7-14 дней - 50% от суммы. Менее чем за 7 дней возврат не производится, но вы можете перенести экскурсию на другую дату (при наличии свободных мест) с доплатой 10% от стоимости.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Есть ли скидки для детей?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>Да, для детей до 5 лет участие бесплатное (без отдельного места). Дети от 5 до 12 лет получают скидку 30% от стоимости взрослого билета. Для школьников и студентов (при предъявлении документа) скидка 15%. Скидки не суммируются с акционными предложениями.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4 border-b pb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Какова численность групп на экскурсиях?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>Мы сознательно ограничиваем размер групп для повышения комфорта. В автобусных экскурсиях - до 25 человек, пешеходных - до 15 человек, индивидуальных - до 6 человек. В особых случаях (корпоративные экскурсии) возможны исключения по согласованию.</p>
+                    </div>
+                </div>
+                
+                <div class="mb-4">
+                    <button class="faq-question flex justify-between items-center w-full text-left font-bold text-lg focus:outline-none">
+                        <span>Что делать, если экскурсия отменяется?</span>
+                        <i class="fas fa-chevron-down transition-transform duration-300"></i>
+                    </button>
+                    <div class="faq-answer mt-2 text-gray-700 hidden">
+                        <p>В редких случаях (плохая погода, форс-мажор) мы можем отменить экскурсию. В таком случае мы обязательно предупредим вас не менее чем за 24 часа и предложим альтернативную дату или полный возврат средств на вашу карту в течение 3-5 рабочих дней.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contacts Section -->
+    <section id="contacts" class="py-12 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold text-center mb-4">Контакты</h2>
+            <p class="text-gray-600 text-center max-w-2xl mx-auto mb-12">Свяжитесь с нами любым удобным способом</p>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Наши реквизиты</h3>
+                    <div class="space-y-4">
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-map-marker-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Адрес:</h4>
+                                <p class="text-gray-700">109012, Москва, ул. Никольская, д. 10, офис 45</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-phone-alt text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Телефоны:</h4>
+                                <p class="text-gray-700">+7 (495) 123-45-67</p>
+                                <p class="text-gray-700">+7 (800) 123-45-67 (бесплатно по России)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-envelope text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Электронная почта:</h4>
+                                <p class="text-gray-700">info@russkieprostory.ru</p>
+                                <p class="text-gray-700">booking@russkieprostory.ru (бронирование)</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex items-start">
+                            <div class="text-blue-600 mr-4 mt-1">
+                                <i class="fas fa-clock text-xl"></i>
+                            </div>
+                            <div>
+                                <h4 class="font-bold">Часы работы:</h4>
+                                <p class="text-gray-700">Пн-Пт: 9:00 - 20:00</p>
+                                <p class="text-gray-700">Сб-Вс: 10:00 - 18:00</p>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="mt-8">
+                        <h4 class="font-bold mb-4">Мы в соцсетях:</h4>
+                        <div class="flex space-x-4">
+                            <a href="#" class="text-blue-600 hover:text-blue-800 text-2xl transition">
+                                <i class="fab fa-vk"></i>
+                            </a>
+                            <a href="#" class="text-blue-400 hover:text-blue-600 text-2xl transition">
+                                <i class="fab fa-telegram"></i>
+                            </a>
+                            <a href="#" class="text-pink-600 hover:text-pink-800 text-2xl transition">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#" class="text-blue-500 hover:text-blue-700 text-2xl transition">
+                                <i class="fab fa-facebook"></i>
+                            </a>
+                            <a href="#" class="text-red-500 hover:text-red-700 text-2xl transition">
+                                <i class="fab fa-youtube"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Напишите нам</h3>
+                    <form class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700 font-bold mb-2">Ваше имя *</label>
+                            <input type="text" id="name" required="" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="email" class="block text-gray-700 font-bold mb-2">Электронная почта *</label>
+                            <input type="email" id="email" required="" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="phone" class="block text-gray-700 font-bold mb-2">Телефон</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                        </div>
+                        
+                        <div>
+                            <label for="subject" class="block text-gray-700 font-bold mb-2">Тема сообщения</label>
+                            <select id="subject" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500">
+                                <option value="question">Общий вопрос</option>
+                                <option value="booking">Бронирование экскурсии</option>
+                                <option value="cancel">Отмена/перенос экскурсии</option>
+                                <option value="cooperation">Сотрудничество</option>
+                                <option value="other">Другое</option>
+                            </select>
+                        </div>
+                        
+                        <div>
+                            <label for="message" class="block text-gray-700 font-bold mb-2">Сообщение *</label>
+                            <textarea id="message" rows="5" required="" class="w-full px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500"></textarea>
+                        </div>
+                        
+                        <button type="submit" class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-6 rounded-lg transition duration-300">
+                            Отправить сообщение
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Map Section -->
+    <div class="h-96 w-full">
+        <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3A4cc7660d46cff8661efdd3a2d1e64a87a5f3a98361f7ba6b1a8f0a061c35a186&amp;source=constructor" width="100%" height="100%" frameborder="0"></iframe>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Русские просторы</h3>
+                    <p class="text-gray-400">Туристическая компания, организующая экскурсионные туры по России с 2010 года.</p>
+                    <div class="mt-4 flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-vk"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-telegram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Экскурсии</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Москва</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Санкт-Петербург</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Золотое кольцо</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Байкал</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Камчатка</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Казань</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Компания</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">О нас</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Отзывы</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Блог</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Вакансии</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Контакты</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h4 class="font-bold text-lg mb-4">Помощь</h4>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">FAQ</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Условия бронирования</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Политика конфиденциальности</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Оферта</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white transition">Подарочные сертификаты</a></li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-8 pt-8 text-center text-gray-400">
+                <p>© 2023 Русские просторы. Все права защищены.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal -->
+    <div id="tour-modal" class="modal fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center z-50 hidden">
+        <div class="bg-white rounded-lg max-w-4xl w-full max-h-[90vh] overflow-y-auto">
+            <!-- Modal will be filled dynamically with JS -->
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        document.getElementById('mobile-menu-button').addEventListener('click', function() {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // FAQ accordion
+        document.querySelectorAll('.faq-question').forEach(button => {
+            button.addEventListener('click', () => {
+                const answer = button.nextElementSibling;
+                const icon = button.querySelector('i');
+                
+                // Toggle answer visibility
+                answer.classList.toggle('hidden');
+                
+                // Rotate icon
+                if (answer.classList.contains('hidden')) {
+                    icon.style.transform = 'rotate(0deg)';
+                } else {
+                    icon.style.transform = 'rotate(180deg)';
+                }
+            });
+        });
+
+        // Tour modal
+        const toursData = {
+            'moscow-classic': {
+                title: 'Москва: классический тур',
+                price: '15,990 ₽',
+                duration: '3 дня / 2 ночи',
+                groupSize: 'До 25 человек',
+                image: 'https://imgholder.ru/800x400/8493a8/adb9ca&text=Москва+тур&font=kelson',
+                description: 'Этот тур идеально подходит для первого знакомства со столицей России. Вы увидите все самые главные достопримечательности Москвы, погрузитесь в ее богатую историю и почувствуете неповторимую атмосферу этого мегаполиса.',
+                itinerary: [
+                    { day: 'День 1', activities: 'Встреча в аэропорту, трансфер в отель. Обзорная экскурсия по центру города: Красная площадь, Александровский сад, Манежная площадь. Посещение Московского Кремля с осмотром соборов. Свободное время.' },
+                    { day: 'День 2', activities: 'Экскурсия по Москве-Сити с посещением смотровой площадки. Прогулка по Старому Арбату. Посещение Третьяковской галереи (опционально). Вечерняя экскурсия "Огни Москвы".' },
+                    { day: 'День 3', activities: 'Поездка в усадьбу Коломенское. Посещение Храма Христа Спасителя. Свободное время для шоппинга или самостоятельного изучения города. Трансфер в аэропорт.' }
+                ],
+                includes: [
+                    'Проживание в отеле 3* (2 ночи)',
+                    'Завтраки в отеле',
+                    'Все входные билеты по программе',
+                    'Транспортное обслуживание',
+                    'Услуги профессионального гида',
+                    'Медицинская страховка'
+                ],
+                notIncludes: [
+                    'Авиабилеты',
+                    'Обеды и ужины',
+                    'Дополнительные экскурсии',
+                    'Личные расходы'
+                ]
+            },
+            'golden-ring': {
+                title: 'Золотое кольцо России',
+                price: '29,900 ₽',
+                duration: '7 дней / 6 ночей',
+                groupSize: 'До 18 человек',
+                image: 'https://imgholder.ru/800x400/8493a8/adb9ca&text=Золотое+кольцо&font=kelson',
+                description: 'Путешествие по древним городам Северо-Восточной Руси, где сохранились уникальные памятники истории, архитектуры и культуры. Вы увидите белокаменные храмы, старинные кремли, монастыри и музеи под открытым небом.',
+                itinerary: [
+                    { day: 'День 1', activities: 'Отъезд из Москвы. Сергиев Посад: Троице-Сергиева Лавра, Трапезная палата. Переезд в Переславль-Залесский: Красная площадь, Спасо-Преображенский собор. Ночлег в Ярославле.' },
+                    { day: 'День 2', activities: 'Ярославль: Спасо-Преображенский монастырь, церковь Ильи Пророка. Ростов Великий: Ростовский кремль, экспозиция "Ростовская финифть". Ночлег в Ростове.' },
+                    { day: 'День 3', activities: 'Переславль-Залесский: музей-усадьба "Ботик Петра I". Кострома: Ипатьевский монастырь, музей деревянного зодчества. Ночлег в Костроме.' },
+                    { day: 'День 4', activities: 'Иваново: музей ситца. Суздаль: музей деревянного зодчества, Спасо-Евфимиев монастырь. Ночлег во Владимире.' },
+                    { day: 'День 5', activities: 'Владимир: Золотые ворота, Успенский собор. Боголюбово: церковь Покрова на Нерли. Возвращение в Москву.' }
+                ],
+                includes: [
+                    'Проживание в отелях 3* (6 ночей)',
+                    'Питание: завтраки',
+                    'Все входные билеты по программе',
+                    'Транспортное обслуживание (комфортабельный автобус)',
+                    'Услуги профессионального гида',
+                    'Медицинская страховка'
+                ],
+                notIncludes: [
+                    'Авиабилеты',
+                    'Обеды и ужины',
+                    'Дополнительные экскурсии',
+                    'Личные расходы'
+                ]
+            },
+            'baikal': {
+                title: 'Байкал: жемчужина Сибири',
+                price: '24,500 ₽',
+                duration: '5 дней / 4 ночи',
+                groupSize: 'До 12 человек',
+                image: 'https://imgholder.ru/800x400/8493a8/adb9ca&text=Озеро+Байкал&font=kelson',
+                description: 'Этот тур познакомит вас с самым глубоким озером на планете - жемчужиной Сибири. Вы увидите кристально чистые воды Байкала, величественные горные хребты, познакомитесь с местной флорой и фауной, а также с культурой и традициями местных жителей.',
+                itinerary: [
+                    { day: 'День 1', activities: 'Прибытие в Иркутск. Обзорная экскурсия по городу. Переезд в Листвянку. Посещение Байкальского музея. Ночевка в Листвянке.' },
+                    { day: 'День 2', activities: 'Экскурсия на катере по Байкалу. Посещение Кругобайкальской железной дороги. Ночевка в Листвянке.' },
+                    { day: 'День 3', activities: 'Переезд на остров Ольхон. По пути остановка у мыса Бурхан (Скала Шаманка). Ночевка в Хужире.' },
+                    { day: 'День 4', activities: 'Экскурсия по острову Ольхон: мыс Хобой, Саган-Заба с древними петроглифами. Ночевка в Хужире.' },
+                    { day: 'День 5', activities: 'Возвращение в Иркутск. Посещение 130 квартала. Трансфер в аэропорт.' }
+                ],
+                includes: [
+                    'Проживание в отеле/гостевых домах (4 ночи)',
+                    'Питание: завтраки',
+                    'Все входные билеты по программе',
+                    'Транспортное обслуживание (автобус, катер)',
+                    'Услуги профессионального гида',
+                    'Медицинская страховка'
+                ],
+                notIncludes: [
+                    'Авиабилеты до Иркутска',
+                    'Обеды и ужины',
+                    'Дополнительные экскурсии',
+                    'Личные расходы'
+                ]
+            }
+        };
+
+        function openModal(tourId) {
+            const modal = document.getElementById('tour-modal');
+            const modalContent = modal.querySelector('.bg-white');
+            const tour = toursData[tourId];
+            
+            let includesHtml = '';
+            tour.includes.forEach(item => {
+                includesHtml += `<li class="flex items-start mb-2">
+                    <i class="fas fa-check text-green-500 mr-2 mt-1"></i>
+                    <span>${item}</span>
+                </li>`;
+            });
+            
+            let notIncludesHtml = '';
+            tour.notIncludes.forEach(item => {
+                notIncludesHtml += `<li class="flex items-start mb-2">
+                    <i class="fas fa-times text-red-500 mr-2 mt-1"></i>
+                    <span>${item}</span>
+                </li>`;
+            });
+            
+            let itineraryHtml = '';
+            tour.itinerary.forEach(day => {
+                itineraryHtml += `<div class="mb-4">
+                    <h4 class="font-bold text-blue-600 mb-1">${day.day}</h4>
+                    <p class="text-gray-700">${day.activities}</p>
+                </div>`;
+            });
+            
+            modalContent.innerHTML = `
+                <div class="p-6">
+                    <div class="flex justify-between items-start mb-6">
+                        <h3 class="text-2xl font-bold text-gray-800">${tour.title}</h3>
+                        <button onclick="closeModal()" class="text-gray-500 hover:text-gray-700">
+                            <i class="fas fa-times text-xl"></i>
+                        </button>
+                    </div>
+                    
+                    <div class="mb-6">
+                        <img src="${tour.image}" alt="${tour.title}" class="w-full h-64 object-cover rounded-lg">
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-3 gap-6 mb-8">
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="text-3xl font-bold text-blue-600 mb-2">${tour.price}</div>
+                            <div class="text-gray-600">Стоимость за человека</div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="text-xl font-bold text-gray-800 mb-2">${tour.duration}</div>
+                            <div class="text-gray-600">Длительность</div>
+                        </div>
+                        <div class="bg-gray-50 p-4 rounded-lg">
+                            <div class="text-xl font-bold text-gray-800 mb-2">${tour.groupSize}</div>
+                            <div class="text-gray-600">Размер группы</div>
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+                        <div>
+                            <h4 class="text-xl font-bold mb-4">Описание тура</h4>
+                            <p class="text-gray-700 mb-6">${tour.description}</p>
+                            
+                            <h4 class="text-xl font-bold mb-4">Программа тура</h4>
+                            ${itineraryHtml}
+                        </div>
+                        
+                        <div>
+                            <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                                <h4 class="text-xl font-bold mb-3">Что включено</h4>
+                                <ul>
+                                    ${includesHtml}
+                                </ul>
+                            </div>
+                            
+                            <div class="bg-red-50 p-4 rounded-lg mb-6">
+                                <h4 class="text-xl font-bold mb-3">Что не включено</h4>
+                                <ul>
+                                    ${notIncludesHtml}
+                                </ul>
+                            </div>
+                            
+                            <div class="text-center">
+                                <button class="bg-blue-600 hover:bg-blue-700 text-white font-bold py-3 px-8 rounded-lg transition duration-300 w-full">
+                                    <i class="fas fa-shopping-cart mr-2"></i>Забронировать
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            `;
+            
+            modal.classList.remove('hidden');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            const modal = document.getElementById('tour-modal');
+            modal.classList.add('hidden');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Close modal when clicking outside
+        document.getElementById('tour-modal').addEventListener('click', function(e) {
+            if (e.target === this) {
+                closeModal();
+            }
+        });
+    </script>
+
+</body></html>
